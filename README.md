@@ -123,26 +123,25 @@ Before submitting, verify:
 - [ ] Screenshots added to `/screenshots` folder
 - [ ] README updated with your information
 
----
+## My Information
 
-## Your Information
+Name: Bwalya Katwishi  
+Student ID: 2022041330  
+Design Theme: A clean and modern responsive portfolio website using a blue and white color scheme. The design focuses on simplicity, readability, and responsiveness across mobile, tablet, and desktop devices.
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
-
-### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [x] CSS Custom Properties
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Media Queries
+- [ ] Other: None
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+One challenge I faced was implementing responsive layouts that adjust properly across different screen sizes. Initially, the project cards did not align well on tablet screens. I solved this by using CSS Grid along with media queries to control how many columns appear at different breakpoints. This allowed the layout to smoothly adapt from one column on mobile devices to three columns on desktop screens.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
+Profile Image: Personal photo  
+Project Images: Screenshots taken from the website
+Font: Default system fonts (Segoe UI, Tahoma, Verdana)
 
 ---
 
