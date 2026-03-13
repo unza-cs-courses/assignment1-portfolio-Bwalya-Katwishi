@@ -8,16 +8,13 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
     <header class="header">
         <nav class="nav" role="navigation" aria-label="Main navigation">
             <div class="nav__logo">
                 <a href="#home">Bwalya Katwishi</a>
             </div>
             <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </button>
             <ul class="nav__menu" id="nav-menu">
                 <li><a href="#home" class="nav__link active">Home</a></li>
@@ -29,18 +26,14 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="hero__content">
                 <h1>Bwalya Katwishi</h1>
-                <p class="hero__tagline">
-                    Final-Year Software Engineering Student | Building Web & Mobile Solutions for Zambian Communities
-                </p>
+                <p class="hero__tagline">Final-Year Software Engineering Student | Building Web & Mobile Solutions for Zambian Communities</p>
                 <a href="#projects" class="btn btn--primary">View My Projects</a>
             </div>
         </section>
 
-        <!-- About Section -->
         <section id="about" class="about">
             <div class="container">
                 <h2>About Me</h2>
@@ -49,76 +42,48 @@
                         <img src="images/profile.jpeg" alt="Profile photo of Bwalya Katwishi">
                     </div>
                     <div class="about__text">
-                        <p>
-                            I'm a final-year Software Engineering student at the University of Zambia, passionate about 
-                            building innovative web and mobile solutions that serve local Zambian communities. My focus 
-                            areas include student accommodation platforms, agritech applications for smallholder farmers, 
-                            and secure fintech escrow systems. Through CSC4035 Web Programming, I've mastered responsive 
-                            design with Flexbox and CSS Grid, creating pixel-perfect layouts that work across all devices.
-                            I thrive in collaborative Git environments and enjoy tackling complex domain problems with 
-                            clean, scalable code. My technical skills span full-stack development (HTML/CSS/JS, React, 
-                            Node.js, Python/Django) and I'm particularly excited about leveraging technology to solve 
-                            real-world challenges in Zambia's growing tech ecosystem.I am constantly exploring new technologies and frameworks to improve my development skills. I enjoy working on projects that create real impact in society, especially solutions that help students, farmers, and small businesses. My goal is to become a professional software engineer contributing to Africa’s digital transformation.
-                        </p>
+                        <p>I'm a final-year Software Engineering student at the University of Zambia, passionate about building innovative web and mobile solutions that serve local Zambian communities. My focus areas include student accommodation platforms, agritech applications for smallholder farmers, and secure fintech escrow systems. Through CSC4035 Web Programming, I've mastered responsive design with Flexbox and CSS Grid, creating pixel-perfect layouts that work across all devices. I thrive in collaborative Git environments and enjoy tackling complex domain problems with clean, scalable code. My technical skills span full-stack development (HTML/CSS/JS, React, Node.js, Python/Django) and I'm particularly excited about leveraging technology to solve real-world challenges in Zambia's growing tech ecosystem.</p>
                         <h3>Skills</h3>
                         <ul class="skills-list">
-                            <li>JAVA</li>
-                            <li>HTML5 & CSS3</li>
-                            <li>JavaScript</li>
-                            <li>Responsive Design</li>
-                            <li>Git & GitHub</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>Python & Django</li>
+                            <li>JAVA</li><li>HTML5 & CSS3</li><li>JavaScript</li><li>Responsive Design</li>
+                            <li>Git & GitHub</li><li>React</li><li>Node.js</li><li>Python & Django</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="projects">
             <div class="container">
                 <h2>My Projects</h2>
                 <div class="projects__grid">
                     <article class="project-card">
-                        <img src="images/student system.jpeg" alt="Screenshot of Student Accommodation System">
+                        <img src="images/student system.jpeg" alt="Student Accommodation System">
                         <div class="project-card__content">
                             <h3>Student Accommodation System</h3>
-                            <p>
-                                A web application designed to help students find suitable accommodation options near their universities. 
-                                The system allows students to search for available rooms, view details, and apply for housing.
-                            </p>
+                            <p>A web application designed to help students find suitable accommodation options near universities.</p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--small btn--outline">GitHub</a>
                             </div>
                         </div>
                     </article>
-
                     <article class="project-card">
-                        <img src="images/library system.jpg" alt="Screenshot of Library Management System">
+                        <img src="images/library system.jpg" alt="Library Management System">
                         <div class="project-card__content">
                             <h3>Library Management System</h3>
-                            <p>
-                                A web application designed to streamline library operations, including book inventory management, 
-                                user authentication, and borrowing processes.
-                            </p>
+                            <p>Web application to streamline library operations including book inventory and user authentication.</p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--small btn--outline">GitHub</a>
                             </div>
                         </div>
                     </article>
-
                     <article class="project-card">
-                        <img src="images/task management.jpeg" alt="Screenshot of Task Management System">
+                        <img src="images/task management.jpeg" alt="Task Management System">
                         <div class="project-card__content">
                             <h3>Task Management System</h3>
-                            <p>
-                                A web application designed to help users organize and track their tasks efficiently. 
-                                The system allows users to create, assign, and monitor the progress of various tasks.
-                            </p>
+                            <p>Web application to help users organize, assign, and track tasks efficiently.</p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
                                 <a href="#" class="btn btn--small btn--outline">GitHub</a>
@@ -129,26 +94,21 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="contact">
             <div class="container">
                 <h2>Contact Me</h2>
-                <form class="contact__form" action="#" method="POST">
+                <form class="contact__form">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required placeholder="Your Name" minlength="2">
+                        <input type="text" id="name" name="name" required minlength="2" placeholder="Your Name">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" required placeholder="your.email@example.com">
                     </div>
                     <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="What is this regarding?">
-                    </div>
-                    <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" required rows="5" placeholder="Your message..." minlength="10"></textarea>
+                        <textarea id="message" name="message" required rows="5" minlength="10" placeholder="Your message..."></textarea>
                     </div>
                     <button type="submit" class="btn btn--primary">Send Message</button>
                 </form>
@@ -156,7 +116,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p>© 2026 Bwalya Katwishi. All rights reserved.</p>
@@ -169,3 +128,4 @@
     </footer>
 </body>
 </html>
+
